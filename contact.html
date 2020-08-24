@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1" />
+	<title>Adhoc Portfolio Tenzin</title>
+	<script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="bower_components/foundation-sites/dist/css/foundation.min.css">
+	<link rel="stylesheet" href="">
+	<script src="bower_components/foundation-sites/dist/js/foundation.min.js" charset="utf-8"></script>
+	<script src="bower_components/normalize-css/normalize.css" charset="utf-8"></script>
+	<script src="bower_components/typed.js/dist/typed.min.js" charset="utf-8"></script>
+	<script src="bower_components/jqcloud2/dist/jqcloud.min.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="bower_components/jqcloud2/dist/jqcloud.min.css">
+	<script src="bower_components/custombox/dist/custombox.min.js"></script>
+	<link href="bower_components/custombox/dist/custombox.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500" rel="stylesheet">
+	<link rel="stylesheet" href="assets/fonts/foundation-icons/foundation-icons.css">
+	<link rel="stylesheet" href="assets/styles/styles.css"> </head>
+
+    <script type="text/javascript"  src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"> </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("user_fCeJBQoUztX9yoK6pvzPV");
+    })();
+    </script>
+
+<body>
+	<div class="wrapper">
+		<div class="thin-bar"> </div>
+		<section id="about">
+			<div class="row">
+				<div class="small-12 large-8 large-offset-2 columns text-center"> <img class="img-circle" src="assets/images/profile.jpg" alt="headshot"> </div>
+			</div>
+			<div class="row">
+				<div class="small-12 column">
+					<div class="center-form">
+						<form onsubmit="return sendMail(this);">
+							<input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+							<input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+							<textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
+							<button type="submit" class="btn btn-primary center-block">Send Project Request</button>
+						</form>
+					</div>
+				</div>
+				<footer id="footer">
+					<div class="row text-center">
+						<div class="small-12 medium-6 medium-offset-3 columns">
+							<p id="logo">SH</p>
+							<p id="copyright">Copyright &copy; 2020 | Sophie Hickey </p>
+						</div>
+					</div>
+				</footer>
+			</div>
+			<script src="assets/scripts/sendEmail.js"></script>
+</body>
+
+</html>
