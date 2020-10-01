@@ -6,6 +6,11 @@ body, html {
 		background-color: #fffdfc;
 }
 
+.project-image {
+	border: 3px solid pink;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Lato", sans-serif !important;
 	font-weight: 900 !important;
@@ -32,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 		border-radius: 45px;
 		height: auto;
 		padding: .8em 2.1em;
-		
+
 }
 
 .my-button:hover {
@@ -147,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #experience h2 {
-	color: #360142; 
+	color: #360142;
 	margin-bottom: .7em;
 }
 
