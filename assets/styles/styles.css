@@ -67,10 +67,26 @@ h6 {
 
 /**********************************/
 
+.form-control {
+	border: 1px solid purple;
+}
+
+.contact-button {
+	font-size: 1.4rem;
+	padding: 1rem;
+	transition: transform 450ms;
+	border: 1px solid purple;
+}
+
+.contact-button:hover {
+	color: purple;
+	transform: scale(1.08);
+}
+
 /*** thin bar ***/
 .social_icons {
 	font-size: 1.8rem;
-	padding: 3px;
+	margin: 3px;
 	color: purple;
 }
 

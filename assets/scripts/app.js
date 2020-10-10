@@ -20,7 +20,7 @@ const Portfolio = (function () {
 			},
 			{
 				text: "bootstrap",
-				weight: 7,
+				weight: 8,
 			},
 			{
 				text: "python",
@@ -28,31 +28,35 @@ const Portfolio = (function () {
 			},
 			{
 				text: "flask",
-				weight: 4,
-			},
-			{
-				text: "Git/GitHub",
 				weight: 5,
 			},
 			{
+				text: "Git/GitHub",
+				weight: 7,
+			},
+			{
 				text: "MongoDB",
-				weight: 4,
+				weight: 4.4,
 			},
 			{
 				text: "Jinja",
-				weight: 3.5,
+				weight: 6,
 			},
 			{
 				text: "Django",
-				weight: 4.5,
+				weight: 6,
 			},
 			{
 				text: "Firebase",
+				weight: 6.2,
+			},
+			{
+				text: "Reactjs",
 				weight: 6,
 			},
 			{
-				text: "Reacjjs",
-				weight: 6,
+				text: "Heroku",
+				weight: 8,
 			},
 		];
 		return words;
