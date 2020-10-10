@@ -2,11 +2,6 @@
 
 /*********** Global Styles********/
 
-body,
-html {
-	background-color: #fffdfc;
-}
-
 /* .project-image {
 	border: 3px solid pink;
 } */
@@ -73,6 +68,11 @@ h6 {
 /**********************************/
 
 /*** thin bar ***/
+.social_icons {
+	font-size: 1.8rem;
+	padding: 3px;
+	color: purple;
+}
 
 .thin-bar {
 	border-bottom: 5px solid purple;
