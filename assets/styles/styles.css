@@ -22,9 +22,12 @@ h6 {
 
 .img-circle {
 	border-radius: 50%;
-	border: 2px solid purple;
+	border: 2.3px solid purple;
 }
 
+.project_image {
+	border: 4px solid #d4d2d2;
+}
 .my-button {
 	font-size: 1em;
 	line-height: normal;
@@ -42,6 +45,7 @@ h6 {
 .my-button:hover {
 	cursor: pointer;
 	padding: 0.8em 2.7em;
+	background-color: #360142;
 }
 
 .my-button:active,
@@ -136,7 +140,7 @@ h6 {
 }
 
 .cta .cta-button {
-	color: #cc4b37;
+	color: #ff66cc;
 	text-transform: uppercase;
 	border: 2px solid #360142;
 	border-radius: 50px;
@@ -262,7 +266,7 @@ h6 {
 .details a:hover,
 .details a:focus {
 	/*box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);*/
-	background-color: rgba(255, 103, 68, 0.91) !important;
+	background-color: #ff66cc !important;
 	color: #fff;
 }
 
@@ -288,7 +292,6 @@ h6 {
 
 /*** Footer Call-to-action ***/
 #footer-cta {
-	background-color: rgba(255, 103, 68, 0.91);
 	padding: 6em 4em 5.6em;
 }
 
@@ -327,7 +330,7 @@ h6 {
 }
 
 #footer #logo {
-	background-color: rgba(255, 103, 68, 0.91);
+	background-color: #ff66cc;
 	border-radius: 50%;
 	color: #fff;
 	padding: 0.4em;
