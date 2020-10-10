@@ -2,6 +2,7 @@ const Portfolio = (function () {
 	function makeWords() {
 		var words = [
 			{
+<<<<<<< HEAD
 				text: "html",
 				weight: 10,
 			},
@@ -10,11 +11,18 @@ const Portfolio = (function () {
 				weight: 9,
 			},
 			{
+=======
+				text: "Html & Css",
+				weight: 12
+			},
+			 {
+>>>>>>> c8bc5264042b8f04dc8cd006dc8c1ddc5792cb5e
 				text: "javascript",
 				weight: 7,
 			},
 			{
 				text: "jquery",
+<<<<<<< HEAD
 				weight: 5,
 			},
 			{
@@ -53,6 +61,54 @@ const Portfolio = (function () {
 				text: "Reacjjs",
 				weight: 6,
 			},
+=======
+				weight: 8
+			}, {
+				text: "bootstrap",
+				weight: 11
+			}, {
+				text: "python",
+				weight: 10
+			}, {
+				text: "flask",
+				weight: 9
+			}, {
+				text: "Git/GitHub",
+				weight: 10
+			}, {
+				text: "MongoDB",
+				weight: 5.5
+			},{
+				text: "Jinja",
+				weight: 7.5
+			},{
+				text: "Django",
+				weight: 9
+			},
+			{
+				text: "API's",
+				weight: 6
+			},
+			{
+				text: "JSON",
+				weight: 6.5
+			},{
+				text: "SQL",
+				weight: 6
+			},
+			{
+				text: "Heroku",
+				weight: 9
+			},
+				{
+				text: "AWS",
+				weight: 5.5
+			},
+			{
+				text: "Stripe",
+				weight: 7.8
+			}
+>>>>>>> c8bc5264042b8f04dc8cd006dc8c1ddc5792cb5e
 		];
 		return words;
 	}
@@ -109,3 +165,5 @@ const Portfolio = (function () {
 
 Portfolio.displayWordCloud();
 Portfolio.typeAnimation();
+
+
